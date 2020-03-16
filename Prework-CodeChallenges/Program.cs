@@ -6,10 +6,13 @@ namespace Prework_CodeChallenges
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Testing challenges...");
-            //Challenge1();
-            //Challenge2();
-            //Challenge3();
+            Console.WriteLine("Challenge 1:");
+            Challenge1();
+            Console.WriteLine("Challenge 2:");
+            Challenge2();
+            Console.WriteLine("Challenge 3:");
+            Challenge3();
+            Console.WriteLine("Challenge 4:");
             Challenge4();
         }
 
@@ -59,11 +62,11 @@ namespace Prework_CodeChallenges
             //dumb if/else to write line
             if(leapCheck == true)
             {
-                Console.WriteLine("That is a leap year");
+                Console.WriteLine("That is a leap year!");
             }
             else
             {
-                Console.WriteLine("That is not a leap year");
+                Console.WriteLine("That is not a leap year.");
             }
         }
 
@@ -87,7 +90,7 @@ namespace Prework_CodeChallenges
             foreach (int num in inputArray)
             {
                 arraySum += num;
-                arrayProd += num;
+                arrayProd *= num;
             }
 
             //ok checking now
